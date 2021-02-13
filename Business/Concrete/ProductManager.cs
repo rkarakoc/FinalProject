@@ -20,6 +20,8 @@ namespace Business.Concrete
             _productDal = productDal;
         }
 
+        
+
         public IResult Add(Product product)
         {
             if (product.ProductName.Length < 2)
